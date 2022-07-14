@@ -14,7 +14,7 @@ This is a solution to the [Launch countdown timer challenge on Frontend Mentor](
   - [Useful resources](#useful-resources)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+
 
 ## Overview
 
