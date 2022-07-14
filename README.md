@@ -11,9 +11,7 @@ This is a solution to the [Launch countdown timer challenge on Frontend Mentor](
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
-- [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
@@ -34,7 +32,7 @@ The screenshot displaying output:
 ![CountdownTimer](https://user-images.githubusercontent.com/105184379/178883118-ebc78b1e-a981-4506-ae27-2ab57f810780.png)
 
 ### Links
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Countdown Timer](https://carson3377.github.io/CountdownTimer/Timer.html)
 
 
 
