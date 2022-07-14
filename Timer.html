@@ -2,30 +2,103 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="Timer.css">
   <title>Frontend Mentor | Launch countdown timer</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <!-- Red Hat Text font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
 </head>
 <body>
+  <main>
+    <div class="header">
+      We're launching soon
 
-  We're launching soon
+      <div class="countdown">
+        <div class="countdown-block">
+          <span class="days time-elem">
+            <span class="top">00</span>
+            <span class="top-back">
+              <span>00</span>
+            </span>
+            <span class="bottom">00</span>
+            <span class="bottom-back">
+              <span>00</span>
+            </span>
+          </span>
+        </div>
 
-  Days
-  Hours
-  Minutes
-  Seconds
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+        <div class="countdown-block">
+          <span class="hours time-elem">
+            <span class="top">00</span>
+            <span class="top-back">
+              <span>00</span>
+            </span>
+            <span class="bottom">00</span>
+            <span class="bottom-back">
+              <span>00</span>
+            </span>
+          </span>
+        </div>
+
+        <div class="countdown-block">
+          <span class="minutes time-elem">
+            <span class="top">00</span>
+            <span class="top-back">
+              <span>00</span>
+            </span>
+            <span class="bottom">00</span>
+            <span class="bottom-back">
+              <span>00</span>
+            </span>
+          </span>
+        </div>
+
+        <div class="countdown-block">
+          <span class="seconds time-elem">
+            <span class="top">00</span>
+            <span class="top-back">
+              <span>00</span>
+            </span>
+            <span class="bottom">00</span>
+            <span class="bottom-back">
+              <span>00</span>
+            </span>
+          </span>
+        </div>
+      </div>
+    
+      <div class="section">
+        <ul>
+          <li>DAYS</li>
+          <li>HOURS</li>
+          <li>MINUTES</li>
+          <li>SECONDS</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/Carson3377">Carson Lee</a>.
+    </div>
+    
+    <div class="socials">
+      <i class="fa-brands fa-2x fa-facebook-square" id="FB"></i>
+      <i class="fa-brands fa-2x fa-pinterest" id="PT"></i>
+      <i class="fa-brands fa-2x fa-instagram-square" id="IG"></i>
+    </div>
+  </main>
+
+  <script src="Timer.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
 </body>
 </html>
